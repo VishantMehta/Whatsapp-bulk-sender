@@ -1,5 +1,5 @@
 # WhatsApp Bulk Message Sender
-<p>Comments are there Code for more clarity</p>
+<p>Comments are there in Code for more clarity</p>
 
 This project automates the process of sending messages to multiple WhatsApp contacts using Python and Playwright. It opens WhatsApp Web, waits for the user to scan the QR code, and then sends a specified message to each contact listed in a file.
 
@@ -28,7 +28,7 @@ Playwright also requires some browser binaries to be installed. Run this command
 ```bash
 playwright install
 ```
-### Usage
+## Usage
 1. Add the list of phone numbers (one per line) in a file named numbers.txt. Each number should include the country code (e.g., +1234567890).
 2. Run the script:
 ```bash
@@ -38,17 +38,17 @@ python script.py
 4. Scan the QR code in the browser window to log in to WhatsApp Web.
 5. The script will automatically send the message to each number listed in numbers.txt.
 
-### Files
+## Files
 - script.py: The main script for sending bulk messages.
 - numbers.txt: A file containing the phone numbers of recipients.
 - requirements.txt: Dependencies required for this script.
 
-### Dependencies
+## Dependencies
 - playwright: For browser automation.
 
-### Why Playwright rather than Selenium
+## Why Playwright rather than Selenium
 - More faster , reliable than Selenium .
 - Our previous version was on Selenium itself which was not very reliable.
 
-### License
+## License
 - This project is licensed under the MIT License.
