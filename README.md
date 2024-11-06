@@ -17,7 +17,7 @@ This project automates the process of sending messages to multiple WhatsApp cont
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/VishantMehta/Whatsapp-bulk-sender.git
-cd whatsapp-bulk-message-sender
+cd Whatsapp-bulk-sender
 ```
 ### 2. Install dependencies
 Use the following command to install required dependencies:
