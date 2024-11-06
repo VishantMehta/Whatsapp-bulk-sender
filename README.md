@@ -29,14 +29,14 @@ Playwright also requires some browser binaries to be installed. Run this command
 playwright install
 ```
 ### Usage
-- 1. Add the list of phone numbers (one per line) in a file named numbers.txt. Each number should include the country code (e.g., +1234567890).
-- 2. Run the script:
+1. Add the list of phone numbers (one per line) in a file named numbers.txt. Each number should include the country code (e.g., +1234567890).
+2. Run the script:
 ```bash
 python script.py
 ```
-- 3. When prompted, enter the message you want to send.
-- 4. Scan the QR code in the browser window to log in to WhatsApp Web.
-- 5. The script will automatically send the message to each number listed in numbers.txt.
+3. When prompted, enter the message you want to send.
+4. Scan the QR code in the browser window to log in to WhatsApp Web.
+5. The script will automatically send the message to each number listed in numbers.txt.
 
 ### Files
 - script.py: The main script for sending bulk messages.
